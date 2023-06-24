@@ -1,17 +1,19 @@
 {
-  "_fv": 33,
+  "_fv": 43,
   "_type": "musicdisc",
   "definition": {
-    "texture": "fbkwqivvsaimi6v",
     "name": "Cross My Heart - Reimagined",
+    "texture": "fbkwqivvsaimi6v",
     "description": "by Fabvl",
     "creativeTab": {
       "value": "MISC"
     },
+    "specialInfo": [],
+    "hasGlow": false,
     "music": {
       "value": "CUSTOM:cmh_reimagined"
     },
-    "specialInfo": [],
-    "hasGlow": false
+    "lengthInTicks": 0,
+    "analogOutput": 0
   }
 }

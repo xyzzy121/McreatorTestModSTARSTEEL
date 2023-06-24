@@ -1,53 +1,41 @@
 
 package net.mcreator.mcreatortestmod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
+import net.mcreator.mcreatortestmod.init.McreatorTestModModItems;
 
-import net.mcreator.mcreatortestmod.McreatorTestModModElements;
-
-@McreatorTestModModElements.ModElement.Tag
-public class StarsteelPickaxeItem extends McreatorTestModModElements.ModElement {
-	@ObjectHolder("mcreator_test_mod:starsteel_pickaxe")
-	public static final Item block = null;
-
-	public StarsteelPickaxeItem(McreatorTestModModElements instance) {
-		super(instance, 9);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
-			public int getMaxUses() {
+public class StarsteelPickaxeItem extends PickaxeItem {
+	public StarsteelPickaxeItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 250;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 6f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 0f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 2;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 14;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(StarsteelDustItem.block));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(McreatorTestModModItems.STARSTEEL_DUST.get()));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("starsteel_pickaxe"));
+		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }
