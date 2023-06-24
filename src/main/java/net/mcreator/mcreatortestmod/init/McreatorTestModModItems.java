@@ -10,6 +10,10 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+<<<<<<< Updated upstream
+=======
+import net.minecraft.world.item.CreativeModeTab;
+>>>>>>> Stashed changes
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mcreatortestmod.item.StarsteelSwordItem;
@@ -26,13 +30,19 @@ public class McreatorTestModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, McreatorTestModMod.MODID);
 	public static final RegistryObject<Item> CMHREIMAGINED = REGISTRY.register("cmhreimagined", () -> new CmhreimaginedItem());
 	public static final RegistryObject<Item> STARSTEEL_DUST = REGISTRY.register("starsteel_dust", () -> new StarsteelDustItem());
+<<<<<<< Updated upstream
 	public static final RegistryObject<Item> STARSTEEL_ORE = block(McreatorTestModModBlocks.STARSTEEL_ORE);
 	public static final RegistryObject<Item> STARSTEEL_BLOCK = block(McreatorTestModModBlocks.STARSTEEL_BLOCK);
+=======
+	public static final RegistryObject<Item> STARSTEEL_ORE = block(McreatorTestModModBlocks.STARSTEEL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> STARSTEEL_BLOCK = block(McreatorTestModModBlocks.STARSTEEL_BLOCK, McreatorTestModModTabs.TAB_TEST);
+>>>>>>> Stashed changes
 	public static final RegistryObject<Item> STARSTEEL_PICKAXE = REGISTRY.register("starsteel_pickaxe", () -> new StarsteelPickaxeItem());
 	public static final RegistryObject<Item> STARSTEEL_AXE = REGISTRY.register("starsteel_axe", () -> new StarsteelAxeItem());
 	public static final RegistryObject<Item> STARSTEEL_SWORD = REGISTRY.register("starsteel_sword", () -> new StarsteelSwordItem());
 	public static final RegistryObject<Item> STARSTEEL_SHOVEL = REGISTRY.register("starsteel_shovel", () -> new StarsteelShovelItem());
 	public static final RegistryObject<Item> STARSTEEL_HOE = REGISTRY.register("starsteel_hoe", () -> new StarsteelHoeItem());
+<<<<<<< Updated upstream
 	public static final RegistryObject<Item> STARSTEEL_ARMOR_HELMET = REGISTRY.register("starsteel_armor_helmet", () -> new StarsteelArmorItem.Helmet());
 	public static final RegistryObject<Item> STARSTEEL_ARMOR_CHESTPLATE = REGISTRY.register("starsteel_armor_chestplate", () -> new StarsteelArmorItem.Chestplate());
 	public static final RegistryObject<Item> STARSTEEL_ARMOR_LEGGINGS = REGISTRY.register("starsteel_armor_leggings", () -> new StarsteelArmorItem.Leggings());
@@ -40,5 +50,17 @@ public class McreatorTestModModItems {
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+=======
+	public static final RegistryObject<Item> STARSTEEL_ARMOR_HELMET = REGISTRY.register("starsteel_armor_helmet",
+			() -> new StarsteelArmorItem.Helmet());
+	public static final RegistryObject<Item> STARSTEEL_ARMOR_CHESTPLATE = REGISTRY.register("starsteel_armor_chestplate",
+			() -> new StarsteelArmorItem.Chestplate());
+	public static final RegistryObject<Item> STARSTEEL_ARMOR_LEGGINGS = REGISTRY.register("starsteel_armor_leggings",
+			() -> new StarsteelArmorItem.Leggings());
+	public static final RegistryObject<Item> STARSTEEL_ARMOR_BOOTS = REGISTRY.register("starsteel_armor_boots", () -> new StarsteelArmorItem.Boots());
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+>>>>>>> Stashed changes
 	}
 }

@@ -8,6 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.common.Mod;
+<<<<<<< Updated upstream
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
@@ -17,4 +18,46 @@ import net.mcreator.mcreatortestmod.McreatorTestModMod;
 public class McreatorTestModModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, McreatorTestModMod.MODID);
 	public static final RegistryObject<Feature<?>> STARSTEEL_ORE = REGISTRY.register("starsteel_ore", StarsteelOreFeature::new);
+=======
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
+
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.GenerationStep;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.Holder;
+
+import net.mcreator.mcreatortestmod.world.features.ores.StarsteelOreFeature;
+import net.mcreator.mcreatortestmod.McreatorTestModMod;
+
+import java.util.function.Supplier;
+import java.util.Set;
+import java.util.List;
+import java.util.ArrayList;
+
+@Mod.EventBusSubscriber
+public class McreatorTestModModFeatures {
+	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, McreatorTestModMod.MODID);
+	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
+	public static final RegistryObject<Feature<?>> STARSTEEL_ORE = register("starsteel_ore", StarsteelOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, StarsteelOreFeature.GENERATE_BIOMES, StarsteelOreFeature::placedFeature));
+
+	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
+		FEATURE_REGISTRATIONS.add(featureRegistration);
+		return REGISTRY.register(registryname, feature);
+	}
+
+	@SubscribeEvent
+	public static void addFeaturesToBiomes(BiomeLoadingEvent event) {
+		for (FeatureRegistration registration : FEATURE_REGISTRATIONS) {
+			if (registration.biomes() == null || registration.biomes().contains(event.getName()))
+				event.getGeneration().getFeatures(registration.stage()).add(registration.placedFeature().get());
+		}
+	}
+
+	private static record FeatureRegistration(GenerationStep.Decoration stage, Set<ResourceLocation> biomes,
+			Supplier<Holder<PlacedFeature>> placedFeature) {
+	}
+>>>>>>> Stashed changes
 }

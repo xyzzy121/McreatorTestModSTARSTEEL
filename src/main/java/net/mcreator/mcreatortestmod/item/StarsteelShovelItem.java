@@ -1,53 +1,41 @@
 
 package net.mcreator.mcreatortestmod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
+import net.mcreator.mcreatortestmod.init.McreatorTestModModTabs;
+import net.mcreator.mcreatortestmod.init.McreatorTestModModItems;
 
-import net.mcreator.mcreatortestmod.itemgroup.TestItemGroup;
-import net.mcreator.mcreatortestmod.McreatorTestModModElements;
-
-@McreatorTestModModElements.ModElement.Tag
-public class StarsteelShovelItem extends McreatorTestModModElements.ModElement {
-	@ObjectHolder("mcreator_test_mod:starsteel_shovel")
-	public static final Item block = null;
-
-	public StarsteelShovelItem(McreatorTestModModElements instance) {
-		super(instance, 12);
-	}
-
-	@Override
-	public void initElements() {
-		elements.items.add(() -> new ShovelItem(new IItemTier() {
-			public int getMaxUses() {
+public class StarsteelShovelItem extends ShovelItem {
+	public StarsteelShovelItem() {
+		super(new Tier() {
+			public int getUses() {
 				return 250;
 			}
 
-			public float getEfficiency() {
+			public float getSpeed() {
 				return 6f;
 			}
 
-			public float getAttackDamage() {
+			public float getAttackDamageBonus() {
 				return 0f;
 			}
 
-			public int getHarvestLevel() {
+			public int getLevel() {
 				return 2;
 			}
 
-			public int getEnchantability() {
+			public int getEnchantmentValue() {
 				return 14;
 			}
 
-			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(StarsteelDustItem.block));
+			public Ingredient getRepairIngredient() {
+				return Ingredient.of(new ItemStack(McreatorTestModModItems.STARSTEEL_DUST.get()));
 			}
-		}, 1, -3f, new Item.Properties().group(TestItemGroup.tab)) {
-		}.setRegistryName("starsteel_shovel"));
+		}, 1, -3f, new Item.Properties().tab(McreatorTestModModTabs.TAB_TEST));
 	}
 }

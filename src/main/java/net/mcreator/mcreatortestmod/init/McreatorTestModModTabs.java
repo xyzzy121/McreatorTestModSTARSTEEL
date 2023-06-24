@@ -4,6 +4,7 @@
  */
 package net.mcreator.mcreatortestmod.init;
 
+<<<<<<< Updated upstream
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -48,5 +49,28 @@ public class McreatorTestModModTabs {
 				})
 
 		);
+=======
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTab;
+
+public class McreatorTestModModTabs {
+	public static CreativeModeTab TAB_TEST;
+
+	public static void load() {
+		TAB_TEST = new CreativeModeTab("tabtest") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(McreatorTestModModItems.CMHREIMAGINED.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+>>>>>>> Stashed changes
 	}
 }

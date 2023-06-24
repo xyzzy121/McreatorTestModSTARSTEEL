@@ -1,5 +1,9 @@
 modLoader="javafml"
+<<<<<<< Updated upstream
 loaderVersion="[45,)"
+=======
+loaderVersion="[40,)"
+>>>>>>> Stashed changes
 license="Academic Free License v3.0"
 
 [[mods]]
@@ -13,7 +17,11 @@ authors="Lucas, MCreator"
 [[dependencies.mcreator_test_mod]]
     modId="minecraft"
     mandatory=true
+<<<<<<< Updated upstream
     versionRange="[1.19.4]"
+=======
+    versionRange="[1.18.2]"
+>>>>>>> Stashed changes
     ordering="NONE"
     side="BOTH"
 

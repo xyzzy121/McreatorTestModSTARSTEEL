@@ -1,8 +1,12 @@
 {
   "pack": {
     "description": "mcreator_test_mod mod resources",
+<<<<<<< Updated upstream
     "pack_format": 13,
     "forge:resource_pack_format": 13,
     "forge:data_pack_format": 12
+=======
+    "pack_format": 9
+>>>>>>> Stashed changes
   }
 }
