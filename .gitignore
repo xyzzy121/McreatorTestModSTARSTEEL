@@ -70,3 +70,9 @@ run/server.properties
 run/servers.dat
 .mcreator/generatorGradleCache
 .mcreator/setupInfo
+.mcreator/
+gradle/
+.gradle/
+.settings/
+build/
+run/
