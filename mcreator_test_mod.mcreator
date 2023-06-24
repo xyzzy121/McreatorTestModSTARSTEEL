@@ -6,7 +6,13 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cmhreimagined"
+      "registry_name": "cmhreimagined",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/cmhreimagined.json",
+          "src/main/java/net/mcreator/mcreatortestmod/item/CmhreimaginedItem.java"
+        ]
+      }
     },
     {
       "name": "IAssureYou",
@@ -14,7 +20,10 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "i_assure_you"
+      "registry_name": "i_assure_you",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "StarsteelDust",
@@ -22,7 +31,13 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_dust"
+      "registry_name": "starsteel_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_dust.json",
+          "src/main/java/net/mcreator/mcreatortestmod/item/StarsteelDustItem.java"
+        ]
+      }
     },
     {
       "name": "StarsteelOre",
@@ -30,7 +45,19 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_ore"
+      "registry_name": "starsteel_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcreatortestmod/block/StarsteelOreBlock.java",
+          "src/main/resources/assets/mcreator_test_mod/blockstates/starsteel_ore.json",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_ore.json",
+          "src/main/java/net/mcreator/mcreatortestmod/world/features/ores/StarsteelOreFeature.java",
+          "src/main/resources/data/mcreator_test_mod/worldgen/placed_feature/starsteel_ore.json",
+          "src/main/resources/assets/mcreator_test_mod/models/block/starsteel_ore.json",
+          "src/main/resources/data/mcreator_test_mod/forge/biome_modifier/starsteel_ore_biome_modifier.json",
+          "src/main/resources/data/mcreator_test_mod/worldgen/configured_feature/starsteel_ore.json"
+        ]
+      }
     },
     {
       "name": "StarsteelBlock",
@@ -38,7 +65,15 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_block"
+      "registry_name": "starsteel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/blockstates/starsteel_block.json",
+          "src/main/java/net/mcreator/mcreatortestmod/block/StarsteelBlockBlock.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_block.json",
+          "src/main/resources/assets/mcreator_test_mod/models/block/starsteel_block.json"
+        ]
+      }
     },
     {
       "name": "StarsteelOreBlockRecipe",
@@ -46,7 +81,12 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_ore_block_recipe"
+      "registry_name": "starsteel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelBlockOreRecipe",
@@ -54,7 +94,12 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_block_ore_recipe"
+      "registry_name": "starsteel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelOreSmelting",
@@ -62,7 +107,12 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_ore_smelting"
+      "registry_name": "starsteel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "StarsteelPickaxe",
@@ -70,7 +120,13 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_pickaxe"
+      "registry_name": "starsteel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcreatortestmod/item/StarsteelPickaxeItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelAxe",
@@ -78,7 +134,13 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_axe"
+      "registry_name": "starsteel_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_axe.json",
+          "src/main/java/net/mcreator/mcreatortestmod/item/StarsteelAxeItem.java"
+        ]
+      }
     },
     {
       "name": "StarsteelSword",
@@ -86,7 +148,13 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_sword"
+      "registry_name": "starsteel_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_sword.json",
+          "src/main/java/net/mcreator/mcreatortestmod/item/StarsteelSwordItem.java"
+        ]
+      }
     },
     {
       "name": "StarsteelShovel",
@@ -94,7 +162,13 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_shovel"
+      "registry_name": "starsteel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcreatortestmod/item/StarsteelShovelItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_shovel.json"
+        ]
+      }
     },
     {
       "name": "StarsteelHoe",
@@ -102,7 +176,13 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_hoe"
+      "registry_name": "starsteel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_hoe.json",
+          "src/main/java/net/mcreator/mcreatortestmod/item/StarsteelHoeItem.java"
+        ]
+      }
     },
     {
       "name": "StarsteelPickaxeRecipe",
@@ -110,7 +190,12 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_pickaxe_recipe"
+      "registry_name": "starsteel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelAxeRecipe",
@@ -118,7 +203,12 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_axe_recipe"
+      "registry_name": "starsteel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelSwordRecipe",
@@ -126,7 +216,12 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_sword_recipe"
+      "registry_name": "starsteel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelShovelRecipe",
@@ -134,7 +229,12 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_shovel_recipe"
+      "registry_name": "starsteel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelHoeRecipe",
@@ -142,7 +242,12 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_hoe_recipe"
+      "registry_name": "starsteel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelArmor",
@@ -155,7 +260,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_armor_helmet.json",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_armor_leggings.json",
+          "src/main/java/net/mcreator/mcreatortestmod/item/StarsteelArmorItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_armor_boots.json",
+          "src/main/resources/assets/mcreator_test_mod/models/item/starsteel_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -164,7 +276,12 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_armor_helmet_recipe"
+      "registry_name": "starsteel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelArmorBodyRecipe",
@@ -172,7 +289,12 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_armor_body_recipe"
+      "registry_name": "starsteel_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelArmorLeggingsRecipe",
@@ -180,7 +302,12 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_armor_leggings_recipe"
+      "registry_name": "starsteel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "StarsteelArmorBootsRecipe",
@@ -188,7 +315,12 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "starsteel_armor_boots_recipe"
+      "registry_name": "starsteel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/starsteel_armor_boots_recipe.json"
+        ]
+      }
     },
     {
       "name": "Test",
@@ -196,7 +328,10 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test"
+      "registry_name": "test",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -223,11 +358,14 @@
       "subtitles.addict": "Addict: Fabvl",
       "item.mcreator_test_mod.cmhreimagined": "Cross My Heart - Reimagined",
       "item.mcreator_test_mod.starsteel_armor_boots": "Starsteel Boots",
+      "painting.mcreator_test_mod.i_assure_you.author": "Unknown",
       "item.mcreator_test_mod.starsteel_sword": "Starsteel Sword",
       "item.mcreator_test_mod.starsteel_shovel": "Starsteel Shovel",
+      "item_group.mcreator_test_mod.test": "Test",
       "item.mcreator_test_mod.starsteel_hoe": "Starsteel Hoe",
       "item.mcreator_test_mod.starsteel_armor_leggings": "Starsteel Leggings",
       "itemGroup.tabtest": "Test",
+      "painting.mcreator_test_mod.i_assure_you.title": "I Assure You",
       "item.mcreator_test_mod.starsteel_armor_chestplate": "Starsteel Chestplate",
       "item.mcreator_test_mod.starsteel_dust": "Starsteel",
       "block.mcreator_test_mod.starsteel_ore": "Starsteel Ore",
@@ -256,9 +394,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.16.5",
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.mcreatortestmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202300224119
 }

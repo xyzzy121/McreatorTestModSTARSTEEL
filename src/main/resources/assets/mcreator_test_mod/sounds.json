@@ -1,6 +1,5 @@
 {
   "addict": {
-    "category": "neutral",
     "subtitle": "subtitles.addict",
     "sounds": [
       {
@@ -10,7 +9,6 @@
     ]
   },
   "cmh_reimagined": {
-    "category": "neutral",
     "sounds": [
       {
         "name": "mcreator_test_mod:spotifydown.com_-_cross_my_heart_reimagined",
