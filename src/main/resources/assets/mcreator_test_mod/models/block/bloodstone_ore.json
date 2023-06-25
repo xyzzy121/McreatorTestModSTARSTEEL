@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mcreator_test_mod:blocks/bloodstone_ore",
+    "particle": "mcreator_test_mod:blocks/bloodstone_ore"
+  }
+}

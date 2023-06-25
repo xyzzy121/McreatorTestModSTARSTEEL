@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.mcreatortestmod.item.CmhreimaginedItem;
+import net.mcreator.mcreatortestmod.item.StarsteelDustItem;
 import net.mcreator.mcreatortestmod.McreatorTestModModElements;
 
 @McreatorTestModModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class TestItemGroup extends McreatorTestModModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(CmhreimaginedItem.block);
+				return new ItemStack(StarsteelDustItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

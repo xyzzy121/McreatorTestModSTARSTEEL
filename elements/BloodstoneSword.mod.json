@@ -3,31 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "starsteel_sword",
+    "texture": "bloodstone_sword",
     "customModelName": "Normal",
-    "name": "Starsteel Sword",
+    "name": "Bloodstone Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Test"
+      "value": "COMBAT"
     },
     "toolType": "Sword",
-    "harvestLevel": 2,
-    "efficiency": 100.0,
+    "harvestLevel": 20,
+    "efficiency": 24.0,
     "attackSpeed": 1.0,
-    "enchantability": 14,
-    "damageVsEntity": 100.0,
-    "usageCount": 250,
+    "enchantability": 140,
+    "damageVsEntity": 20.0,
+    "usageCount": 6280,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:StarsteelDust"
-      },
-      {
-        "value": "Blocks.DIRT#0"
+        "value": "CUSTOM:BloodstoneIngot"
       }
     ],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

@@ -34,7 +34,7 @@ public class StarsteelDustItem extends McreatorTestModModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(TestItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.RARE)
-					.food((new Food.Builder()).hunger(999).saturation(999f).setAlwaysEdible().meat().build()));
+					.food((new Food.Builder()).hunger(999).saturation(10f).setAlwaysEdible().meat().build()));
 			setRegistryName("starsteel_dust");
 		}
 

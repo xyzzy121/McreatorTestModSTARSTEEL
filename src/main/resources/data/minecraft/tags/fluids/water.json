@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mcreator_test_mod:honey",
+    "mcreator_test_mod:honey_flowing",
+    "mcreator_test_mod:honey_but_gas",
+    "mcreator_test_mod:honey_but_gas_flowing"
+  ]
+}
