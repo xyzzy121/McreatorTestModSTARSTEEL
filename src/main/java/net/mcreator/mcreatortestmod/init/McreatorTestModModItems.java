@@ -37,7 +37,7 @@ public class McreatorTestModModItems {
 	public static final RegistryObject<Item> CMHREIMAGINED = REGISTRY.register("cmhreimagined", () -> new CmhreimaginedItem());
 	public static final RegistryObject<Item> HONEY_BUCKET = REGISTRY.register("honey_bucket", () -> new HoneyItem());
 	public static final RegistryObject<Item> STARSTEEL_BLOCK = block(McreatorTestModModBlocks.STARSTEEL_BLOCK, McreatorTestModModTabs.TAB_TEST);
-	public static final RegistryObject<Item> STARSTEEL_ORE = block(McreatorTestModModBlocks.STARSTEEL_ORE, McreatorTestModModTabs.TAB_TEST);
+	public static final RegistryObject<Item> STARSTEEL_ORE = block(McreatorTestModModBlocks.STARSTEEL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> STARSTEEL_DUST = REGISTRY.register("starsteel_dust", () -> new StarsteelDustItem());
 	public static final RegistryObject<Item> STARSTEEL_ARMOR_HELMET = REGISTRY.register("starsteel_armor_helmet", () -> new StarsteelArmorItem.Helmet());
 	public static final RegistryObject<Item> STARSTEEL_ARMOR_CHESTPLATE = REGISTRY.register("starsteel_armor_chestplate", () -> new StarsteelArmorItem.Chestplate());

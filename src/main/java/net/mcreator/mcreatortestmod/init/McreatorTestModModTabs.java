@@ -14,7 +14,7 @@ public class McreatorTestModModTabs {
 		TAB_TEST = new CreativeModeTab("tabtest") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(McreatorTestModModItems.STARSTEEL_DUST.get());
+				return new ItemStack(McreatorTestModModItems.CMHREIMAGINED.get());
 			}
 
 			@Override
