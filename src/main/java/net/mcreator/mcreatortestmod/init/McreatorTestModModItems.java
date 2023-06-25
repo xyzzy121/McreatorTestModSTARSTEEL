@@ -21,6 +21,7 @@ import net.mcreator.mcreatortestmod.item.StarsteelDustItem;
 import net.mcreator.mcreatortestmod.item.StarsteelAxeItem;
 import net.mcreator.mcreatortestmod.item.StarsteelArmorItem;
 import net.mcreator.mcreatortestmod.item.HoneyItem;
+import net.mcreator.mcreatortestmod.item.GlitchFluidItem;
 import net.mcreator.mcreatortestmod.item.CmhreimaginedItem;
 import net.mcreator.mcreatortestmod.item.BloodstoneSwordItem;
 import net.mcreator.mcreatortestmod.item.BloodstoneShovelItem;
@@ -59,6 +60,7 @@ public class McreatorTestModModItems {
 	public static final RegistryObject<Item> BLOODSTONE_SWORD = REGISTRY.register("bloodstone_sword", () -> new BloodstoneSwordItem());
 	public static final RegistryObject<Item> BLOODSTONE_SHOVEL = REGISTRY.register("bloodstone_shovel", () -> new BloodstoneShovelItem());
 	public static final RegistryObject<Item> BLOODSTONE_HOE = REGISTRY.register("bloodstone_hoe", () -> new BloodstoneHoeItem());
+	public static final RegistryObject<Item> GLITCH_FLUID_BUCKET = REGISTRY.register("glitch_fluid_bucket", () -> new GlitchFluidItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

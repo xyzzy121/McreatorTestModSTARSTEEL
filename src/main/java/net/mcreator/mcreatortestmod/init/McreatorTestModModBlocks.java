@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.mcreatortestmod.block.StarsteelOreBlock;
 import net.mcreator.mcreatortestmod.block.StarsteelBlockBlock;
 import net.mcreator.mcreatortestmod.block.HoneyBlock;
+import net.mcreator.mcreatortestmod.block.GlitchFluidBlock;
 import net.mcreator.mcreatortestmod.block.BloodstoneOreBlock;
 import net.mcreator.mcreatortestmod.block.BloodstoneBlockBlock;
 import net.mcreator.mcreatortestmod.McreatorTestModMod;
@@ -24,4 +25,5 @@ public class McreatorTestModModBlocks {
 	public static final RegistryObject<Block> STARSTEEL_ORE = REGISTRY.register("starsteel_ore", () -> new StarsteelOreBlock());
 	public static final RegistryObject<Block> BLOODSTONE_BLOCK = REGISTRY.register("bloodstone_block", () -> new BloodstoneBlockBlock());
 	public static final RegistryObject<Block> BLOODSTONE_ORE = REGISTRY.register("bloodstone_ore", () -> new BloodstoneOreBlock());
+	public static final RegistryObject<Block> GLITCH_FLUID = REGISTRY.register("glitch_fluid", () -> new GlitchFluidBlock());
 }
