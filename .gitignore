@@ -76,9 +76,3 @@ gradle/
 .settings/
 build/
 run/
-.classpath
-.project
-build.gradle
-gradlew
-gradlew.bat
-mcreator.gradle
