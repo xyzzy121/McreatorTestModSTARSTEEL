@@ -1,7 +1,28 @@
 {
   "subtitles.addict": "Addict: Fabvl",
   "item.mcreator_test_mod.cmhreimagined": "Cross My Heart - Reimagined",
+<<<<<<< Updated upstream
   "item.mcreator_test_mod.starsteel_armor_boots": "Starsteel Boots",
+=======
+  "item.mcreator_test_mod.bloodstone_axe": "Bloodstone Axe",
+  "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
+  "item.mcreator_test_mod.starsteel_armor_boots": "Starsteel Boots",
+  "fluid.mcreator_test_mod.honey": "Honey",
+  "item.minecraft.potion.effect.levitation": "Potion of Levitation",
+  "item.mcreator_test_mod.starsteel_shovel": "Starsteel Shovel",
+  "block.mcreator_test_mod.honey": "Honey",
+  "item.mcreator_test_mod.starsteel_armor_leggings": "Starsteel Leggings",
+  "item.mcreator_test_mod.bloodstone_armor_helmet": "Bloodstone Helmet",
+  "block.mcreator_test_mod.starsteel_ore": "Starsteel Ore",
+  "block.mcreator_test_mod.starsteel_block": "Block of Starsteel",
+  "item.mcreator_test_mod.bloodstone_pickaxe": "Bloodstone Pickaxe",
+  "item.mcreator_test_mod.bloodstone_armor_leggings": "Bloodstone Leggings",
+  "item.mcreator_test_mod.bloodstone_armor_chestplate": "Bloodstone Chestplate",
+  "item.mcreator_test_mod.cmhreimagined.desc": "by Fabvl",
+  "subtitles.cmh_reimagined": "",
+  "block.mcreator_test_mod.bloodstone_ore": "Bloodstone Ore",
+  "item.mcreator_test_mod.bloodstone_armor_boots": "Bloodstone Boots",
+>>>>>>> Stashed changes
   "item.mcreator_test_mod.starsteel_sword": "Starsteel Sword",
   "item.mcreator_test_mod.starsteel_shovel": "Starsteel Shovel",
   "item.mcreator_test_mod.starsteel_hoe": "Starsteel Hoe",

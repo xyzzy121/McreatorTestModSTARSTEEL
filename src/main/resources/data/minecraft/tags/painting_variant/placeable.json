@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+<<<<<<< Updated upstream
     "mcreator_test_mod:i_assure_you"
+=======
+    "mcreator_test_mod:i_assure_you",
+    "mcreator_test_mod:paintinga"
+>>>>>>> Stashed changes
   ]
 }

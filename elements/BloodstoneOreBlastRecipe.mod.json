@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 256.0,
+    "cookingTime": 10,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:BloodstoneOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:BloodstoneIngot"
+    },
+    "name": "bloodstone_ore_blast_recipe",
+    "namespace": "mod"
+  }
+}

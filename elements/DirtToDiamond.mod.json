@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 1000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.DIRT#0"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.DIAMOND"
+    },
+    "name": "dirt_to_diamond",
+    "namespace": "mod"
+  }
+}
