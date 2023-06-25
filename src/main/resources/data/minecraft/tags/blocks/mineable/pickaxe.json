@@ -1,14 +1,9 @@
 {
   "replace": false,
   "values": [
-<<<<<<< Updated upstream
-    "mcreator_test_mod:starsteel_ore",
-    "mcreator_test_mod:starsteel_block"
-=======
     "mcreator_test_mod:starsteel_block",
     "mcreator_test_mod:starsteel_ore",
     "mcreator_test_mod:bloodstone_block",
     "mcreator_test_mod:bloodstone_ore"
->>>>>>> Stashed changes
   ]
 }

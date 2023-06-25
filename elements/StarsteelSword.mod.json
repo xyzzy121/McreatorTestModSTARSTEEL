@@ -12,19 +12,22 @@
     },
     "toolType": "Sword",
     "harvestLevel": 2,
-    "efficiency": 6.0,
+    "efficiency": 100.0,
     "attackSpeed": 1.0,
     "enchantability": 14,
-    "damageVsEntity": 6.0,
+    "damageVsEntity": 100.0,
     "usageCount": 250,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:StarsteelDust"
+      },
+      {
+        "value": "Blocks.DIRT#0"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

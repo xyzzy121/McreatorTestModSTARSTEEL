@@ -6,13 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-<<<<<<< Updated upstream
-import net.minecraft.world.item.CreativeModeTab;
-
-=======
 
 import net.mcreator.mcreatortestmod.init.McreatorTestModModTabs;
->>>>>>> Stashed changes
 import net.mcreator.mcreatortestmod.init.McreatorTestModModItems;
 
 public class StarsteelPickaxeItem extends PickaxeItem {
@@ -23,11 +18,7 @@ public class StarsteelPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-<<<<<<< Updated upstream
-				return 6f;
-=======
 				return 20f;
->>>>>>> Stashed changes
 			}
 
 			public float getAttackDamageBonus() {
@@ -45,10 +36,6 @@ public class StarsteelPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(McreatorTestModModItems.STARSTEEL_DUST.get()));
 			}
-<<<<<<< Updated upstream
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-=======
 		}, 1, -3f, new Item.Properties().tab(McreatorTestModModTabs.TAB_TEST));
->>>>>>> Stashed changes
 	}
 }

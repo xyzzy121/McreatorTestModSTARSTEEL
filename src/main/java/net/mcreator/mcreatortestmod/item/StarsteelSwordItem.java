@@ -1,10 +1,7 @@
 
 package net.mcreator.mcreatortestmod.item;
 
-<<<<<<< Updated upstream
-=======
 import net.minecraft.world.level.block.Blocks;
->>>>>>> Stashed changes
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
@@ -22,19 +19,11 @@ public class StarsteelSwordItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-<<<<<<< Updated upstream
-				return 6f;
-			}
-
-			public float getAttackDamageBonus() {
-				return 4f;
-=======
 				return 100f;
 			}
 
 			public float getAttackDamageBonus() {
 				return 98f;
->>>>>>> Stashed changes
 			}
 
 			public int getLevel() {
@@ -46,14 +35,8 @@ public class StarsteelSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-<<<<<<< Updated upstream
-				return Ingredient.of(new ItemStack(McreatorTestModModItems.STARSTEEL_DUST.get()));
-			}
-		}, 3, -3f, new Item.Properties().tab(McreatorTestModModTabs.TAB_TEST));
-=======
 				return Ingredient.of(new ItemStack(McreatorTestModModItems.STARSTEEL_DUST.get()), new ItemStack(Blocks.DIRT));
 			}
 		}, 3, -3f, new Item.Properties().tab(McreatorTestModModTabs.TAB_TEST).fireResistant());
->>>>>>> Stashed changes
 	}
 }

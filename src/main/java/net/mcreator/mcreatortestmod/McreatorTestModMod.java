@@ -31,16 +31,11 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mcreatortestmod.init.McreatorTestModModTabs;
 import net.mcreator.mcreatortestmod.init.McreatorTestModModSounds;
-<<<<<<< Updated upstream
-import net.mcreator.mcreatortestmod.init.McreatorTestModModPaintings;
-import net.mcreator.mcreatortestmod.init.McreatorTestModModItems;
-=======
 import net.mcreator.mcreatortestmod.init.McreatorTestModModPotions;
 import net.mcreator.mcreatortestmod.init.McreatorTestModModPaintings;
 import net.mcreator.mcreatortestmod.init.McreatorTestModModItems;
 import net.mcreator.mcreatortestmod.init.McreatorTestModModFluids;
 import net.mcreator.mcreatortestmod.init.McreatorTestModModFluidTypes;
->>>>>>> Stashed changes
 import net.mcreator.mcreatortestmod.init.McreatorTestModModFeatures;
 import net.mcreator.mcreatortestmod.init.McreatorTestModModBlocks;
 
@@ -67,18 +62,12 @@ public class McreatorTestModMod {
 		McreatorTestModModItems.REGISTRY.register(bus);
 
 		McreatorTestModModFeatures.REGISTRY.register(bus);
-<<<<<<< Updated upstream
-
-		McreatorTestModModPaintings.REGISTRY.register(bus);
-
-=======
 		McreatorTestModModFluids.REGISTRY.register(bus);
 		McreatorTestModModFluidTypes.REGISTRY.register(bus);
 		McreatorTestModModPaintings.REGISTRY.register(bus);
 
 		McreatorTestModModPotions.REGISTRY.register(bus);
 
->>>>>>> Stashed changes
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
