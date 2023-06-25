@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.mcreatortestmod.itemgroup.TestItemGroup;
 import net.mcreator.mcreatortestmod.McreatorTestModModElements;
 
 @McreatorTestModModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class BloodstoneIngotItem extends McreatorTestModModElements.ModElement {
 	public static final Item block = null;
 
 	public BloodstoneIngotItem(McreatorTestModModElements instance) {
-		super(instance, 30);
+		super(instance, 15);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class BloodstoneIngotItem extends McreatorTestModModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(TestItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));
 			setRegistryName("bloodstone_ingot");
 		}
 

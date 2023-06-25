@@ -18,7 +18,7 @@ public class StarsteelShovelItem extends McreatorTestModModElements.ModElement {
 	public static final Item block = null;
 
 	public StarsteelShovelItem(McreatorTestModModElements instance) {
-		super(instance, 12);
+		super(instance, 11);
 	}
 
 	@Override

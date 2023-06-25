@@ -8,7 +8,7 @@
     "name": "Bloodstone Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Test"
     },
     "toolType": "Hoe",
     "harvestLevel": 20,

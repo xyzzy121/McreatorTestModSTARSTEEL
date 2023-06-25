@@ -48,7 +48,7 @@ public class BloodstoneOreBlock extends McreatorTestModModElements.ModElement {
 	public static final Block block = null;
 
 	public BloodstoneOreBlock(McreatorTestModModElements instance) {
-		super(instance, 31);
+		super(instance, 14);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -61,8 +61,8 @@ public class BloodstoneOreBlock extends McreatorTestModModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(30f, 31.547867224009668f).setLightLevel(s -> 1)
-					.harvestLevel(5).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f, 31.547867224009668f).setLightLevel(s -> 1)
+					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("bloodstone_ore");
 		}
 
@@ -76,7 +76,7 @@ public class BloodstoneOreBlock extends McreatorTestModModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(BloodstoneOreBlock.block));
 		}
 	}
 

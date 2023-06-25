@@ -6,10 +6,11 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.block.Blocks;
 
+import net.mcreator.mcreatortestmod.itemgroup.TestItemGroup;
 import net.mcreator.mcreatortestmod.McreatorTestModModElements;
 
 @McreatorTestModModElements.ModElement.Tag
@@ -18,7 +19,7 @@ public class BloodstoneSwordItem extends McreatorTestModModElements.ModElement {
 	public static final Item block = null;
 
 	public BloodstoneSwordItem(McreatorTestModModElements instance) {
-		super(instance, 38);
+		super(instance, 19);
 	}
 
 	@Override
@@ -33,7 +34,7 @@ public class BloodstoneSwordItem extends McreatorTestModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 18f;
+				return 58f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,9 +46,9 @@ public class BloodstoneSwordItem extends McreatorTestModModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(BloodstoneIngotItem.block));
+				return Ingredient.fromStacks(new ItemStack(BloodstoneIngotItem.block), new ItemStack(Blocks.DIRT));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(TestItemGroup.tab)) {
 		}.setRegistryName("bloodstone_sword"));
 	}
 }

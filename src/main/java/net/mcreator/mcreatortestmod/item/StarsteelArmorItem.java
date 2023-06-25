@@ -31,7 +31,7 @@ public class StarsteelArmorItem extends McreatorTestModModElements.ModElement {
 	public static final Item boots = null;
 
 	public StarsteelArmorItem(McreatorTestModModElements instance) {
-		super(instance, 19);
+		super(instance, 7);
 	}
 
 	@Override

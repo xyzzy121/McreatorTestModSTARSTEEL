@@ -3,18 +3,18 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 256.0,
-    "cookingTime": 100,
+    "xpReward": 1.0,
+    "cookingTime": 1000,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:BloodstoneOre"
+      "value": "Blocks.DIRT#0"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:BloodstoneIngot"
+      "value": "Items.DIAMOND"
     },
-    "name": "bloodstone_ore_smelting",
+    "name": "dirt_to_diamond",
     "namespace": "mod"
   }
 }

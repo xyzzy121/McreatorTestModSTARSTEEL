@@ -5,11 +5,11 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
+import net.mcreator.mcreatortestmod.itemgroup.TestItemGroup;
 import net.mcreator.mcreatortestmod.McreatorTestModModElements;
 
 @McreatorTestModModElements.ModElement.Tag
@@ -18,7 +18,7 @@ public class BloodstoneAxeItem extends McreatorTestModModElements.ModElement {
 	public static final Item block = null;
 
 	public BloodstoneAxeItem(McreatorTestModModElements instance) {
-		super(instance, 37);
+		super(instance, 18);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class BloodstoneAxeItem extends McreatorTestModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 18f;
+				return 88f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class BloodstoneAxeItem extends McreatorTestModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(BloodstoneIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(TestItemGroup.tab)) {
 		}.setRegistryName("bloodstone_axe"));
 	}
 }

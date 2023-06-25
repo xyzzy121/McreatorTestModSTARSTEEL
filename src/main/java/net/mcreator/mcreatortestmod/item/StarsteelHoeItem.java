@@ -18,7 +18,7 @@ public class StarsteelHoeItem extends McreatorTestModModElements.ModElement {
 	public static final Item block = null;
 
 	public StarsteelHoeItem(McreatorTestModModElements instance) {
-		super(instance, 13);
+		super(instance, 12);
 	}
 
 	@Override

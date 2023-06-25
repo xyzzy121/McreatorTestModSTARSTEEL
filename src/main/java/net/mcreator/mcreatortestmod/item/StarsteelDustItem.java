@@ -23,7 +23,7 @@ public class StarsteelDustItem extends McreatorTestModModElements.ModElement {
 	public static final Item block = null;
 
 	public StarsteelDustItem(McreatorTestModModElements instance) {
-		super(instance, 3);
+		super(instance, 6);
 	}
 
 	@Override

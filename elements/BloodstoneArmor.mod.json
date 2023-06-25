@@ -10,8 +10,20 @@
     "textureLeggings": "bloodstone_leggings",
     "enableBoots": true,
     "textureBoots": "bloodstone_boots",
+    "onHelmetTick": {
+      "name": "ArmorCheatProcedure"
+    },
+    "onBodyTick": {
+      "name": "ArmorCheatProcedure"
+    },
+    "onLeggingsTick": {
+      "name": "ArmorCheatProcedure"
+    },
+    "onBootsTick": {
+      "name": "ArmorCheatProcedure"
+    },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Test"
     },
     "armorTextureFile": "bloodstone",
     "helmetName": "Bloodstone Helmet",

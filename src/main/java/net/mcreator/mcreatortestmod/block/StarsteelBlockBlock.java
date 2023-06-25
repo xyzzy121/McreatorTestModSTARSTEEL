@@ -27,7 +27,7 @@ public class StarsteelBlockBlock extends McreatorTestModModElements.ModElement {
 	public static final Block block = null;
 
 	public StarsteelBlockBlock(McreatorTestModModElements instance) {
-		super(instance, 5);
+		super(instance, 4);
 	}
 
 	@Override

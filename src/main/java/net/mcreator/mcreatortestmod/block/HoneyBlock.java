@@ -45,7 +45,7 @@ public class HoneyBlock extends McreatorTestModModElements.ModElement {
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 
 	public HoneyBlock(McreatorTestModModElements instance) {
-		super(instance, 26);
+		super(instance, 3);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 	}
 

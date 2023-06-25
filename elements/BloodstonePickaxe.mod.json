@@ -8,7 +8,7 @@
     "name": "Bloodstone Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Test"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 20,

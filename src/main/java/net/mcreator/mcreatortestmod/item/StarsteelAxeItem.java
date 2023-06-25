@@ -18,7 +18,7 @@ public class StarsteelAxeItem extends McreatorTestModModElements.ModElement {
 	public static final Item block = null;
 
 	public StarsteelAxeItem(McreatorTestModModElements instance) {
-		super(instance, 10);
+		super(instance, 9);
 	}
 
 	@Override

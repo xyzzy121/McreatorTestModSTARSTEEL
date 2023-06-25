@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "bloodstone_ingot",
     "customModelName": "Normal",
-    "name": "Bloodstone",
-    "rarity": "COMMON",
+    "name": "Bloodstone Ingot",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Test"
     },
     "stackSize": 64,
     "enchantability": 0,

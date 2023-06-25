@@ -8,7 +8,7 @@
     "name": "Bloodstone Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Test"
     },
     "toolType": "Spade",
     "harvestLevel": 20,

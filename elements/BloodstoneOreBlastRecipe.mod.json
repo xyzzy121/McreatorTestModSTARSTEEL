@@ -2,19 +2,19 @@
   "_fv": 33,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
+    "recipeType": "Blasting",
     "xpReward": 256.0,
-    "cookingTime": 100,
+    "cookingTime": 10,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "smeltingInputStack": {
+    "blastingInputStack": {
       "value": "CUSTOM:BloodstoneOre"
     },
-    "smeltingReturnStack": {
+    "blastingReturnStack": {
       "value": "CUSTOM:BloodstoneIngot"
     },
-    "name": "bloodstone_ore_smelting",
+    "name": "bloodstone_ore_blast_recipe",
     "namespace": "mod"
   }
 }

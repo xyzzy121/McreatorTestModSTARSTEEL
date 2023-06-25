@@ -13,7 +13,7 @@ import net.mcreator.mcreatortestmod.McreatorTestModModElements;
 @McreatorTestModModElements.ModElement.Tag
 public class TestItemGroup extends McreatorTestModModElements.ModElement {
 	public TestItemGroup(McreatorTestModModElements instance) {
-		super(instance, 24);
+		super(instance, 35);
 	}
 
 	@Override

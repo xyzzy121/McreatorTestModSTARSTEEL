@@ -35,7 +35,7 @@
     ],
     "name": "Bloodstone Ore",
     "specialInfo": [],
-    "hardness": 30.0,
+    "hardness": 10.0,
     "resistance": 31.547867224009668,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:BloodstoneOre"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -98,7 +98,7 @@
     },
     "luminance": 1,
     "unbreakable": false,
-    "breakHarvestLevel": 5,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
