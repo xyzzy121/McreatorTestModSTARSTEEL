@@ -20,8 +20,6 @@ import net.mcreator.mcreatortestmod.item.StarsteelHoeItem;
 import net.mcreator.mcreatortestmod.item.StarsteelDustItem;
 import net.mcreator.mcreatortestmod.item.StarsteelAxeItem;
 import net.mcreator.mcreatortestmod.item.StarsteelArmorItem;
-import net.mcreator.mcreatortestmod.item.HoneyItem;
-import net.mcreator.mcreatortestmod.item.GlitchFluidItem;
 import net.mcreator.mcreatortestmod.item.CmhreimaginedItem;
 import net.mcreator.mcreatortestmod.item.BloodstoneSwordItem;
 import net.mcreator.mcreatortestmod.item.BloodstoneShovelItem;
@@ -35,7 +33,6 @@ import net.mcreator.mcreatortestmod.McreatorTestModMod;
 public class McreatorTestModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, McreatorTestModMod.MODID);
 	public static final RegistryObject<Item> CMHREIMAGINED = REGISTRY.register("cmhreimagined", () -> new CmhreimaginedItem());
-	public static final RegistryObject<Item> HONEY_BUCKET = REGISTRY.register("honey_bucket", () -> new HoneyItem());
 	public static final RegistryObject<Item> STARSTEEL_BLOCK = block(McreatorTestModModBlocks.STARSTEEL_BLOCK, McreatorTestModModTabs.TAB_TEST);
 	public static final RegistryObject<Item> STARSTEEL_ORE = block(McreatorTestModModBlocks.STARSTEEL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> STARSTEEL_DUST = REGISTRY.register("starsteel_dust", () -> new StarsteelDustItem());
@@ -60,7 +57,6 @@ public class McreatorTestModModItems {
 	public static final RegistryObject<Item> BLOODSTONE_SWORD = REGISTRY.register("bloodstone_sword", () -> new BloodstoneSwordItem());
 	public static final RegistryObject<Item> BLOODSTONE_SHOVEL = REGISTRY.register("bloodstone_shovel", () -> new BloodstoneShovelItem());
 	public static final RegistryObject<Item> BLOODSTONE_HOE = REGISTRY.register("bloodstone_hoe", () -> new BloodstoneHoeItem());
-	public static final RegistryObject<Item> GLITCH_FLUID_BUCKET = REGISTRY.register("glitch_fluid_bucket", () -> new GlitchFluidItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
