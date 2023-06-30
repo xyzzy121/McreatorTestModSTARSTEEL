@@ -1,5 +1,7 @@
 {
   "subtitles.woetothepeopleoforder_stereo": "Woe to the People of Order — Cami-Cat",
+  "item.minecraft.potion.effect.ambrosia": "Potion of Dark Ambrosia",
+  "item.minecraft.splash_potion.effect.ambrosia": "Splash Potion of Dark Ambrosia",
   "subtitles.addict": "Addict: Fabvl",
   "item.mcreator_test_mod.cmhreimagined": "Cross My Heart - Reimagined",
   "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
@@ -10,6 +12,7 @@
   "item.mcreator_test_mod.starsteel_shovel": "Starsteel Shovel",
   "item.mcreator_test_mod.starsteel_armor_leggings": "Starsteel Leggings",
   "item.mcreator_test_mod.addict.desc": "Fabvl",
+  "item.minecraft.lingering_potion.effect.ambrosia": "Lingering Potion of Dark Ambrosia",
   "block.mcreator_test_mod.starsteel_ore": "Starsteel Ore",
   "block.mcreator_test_mod.starsteel_block": "Block of Starsteel",
   "item.mcreator_test_mod.cmhreimagined.desc": "by Fabvl",
@@ -17,6 +20,7 @@
   "subtitles.cmh_reimagined": "",
   "item.mcreator_test_mod.world_i_never_knew": "World I Never Knew",
   "item.mcreator_test_mod.zombified.desc": "Falling In Reverse",
+  "item.minecraft.tipped_arrow.effect.ambrosia": "Arrow of Dark Ambrosia",
   "item.mcreator_test_mod.starsteel_sword": "Starsteel Sword",
   "subtitles.world_i_never_knew": "World I Never Knew — Fabvl",
   "item.mcreator_test_mod.starsteel_hoe": "Starsteel Hoe",
