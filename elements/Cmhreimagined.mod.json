@@ -3,7 +3,7 @@
   "_type": "musicdisc",
   "definition": {
     "name": "Cross My Heart - Reimagined",
-    "texture": "fbkwqivvsaimi6v",
+    "texture": "cmh_reimagined",
     "description": "by Fabvl",
     "creativeTab": {
       "value": "CUSTOM:Test"
@@ -13,7 +13,7 @@
     "music": {
       "value": "CUSTOM:cmh_reimagined"
     },
-    "lengthInTicks": 0,
+    "lengthInTicks": 5200,
     "analogOutput": 0
   }
 }

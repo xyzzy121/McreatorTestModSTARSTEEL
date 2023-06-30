@@ -3,7 +3,7 @@
   "_type": "musicdisc",
   "definition": {
     "name": "Zombified",
-    "texture": "fbkwqivvsaimi6v",
+    "texture": "zombified",
     "description": "Falling In Reverse",
     "creativeTab": {
       "value": "CUSTOM:Test"

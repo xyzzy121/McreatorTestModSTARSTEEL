@@ -17,7 +17,7 @@
     {
       "name": "IAssureYou",
       "type": "painting",
-      "sortid": 22,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "i_assure_you",
@@ -28,7 +28,7 @@
     {
       "name": "StarsteelDust",
       "type": "item",
-      "sortid": 6,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_dust",
@@ -42,7 +42,7 @@
     {
       "name": "StarsteelOre",
       "type": "block",
-      "sortid": 5,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_ore",
@@ -60,7 +60,7 @@
     {
       "name": "StarsteelBlock",
       "type": "block",
-      "sortid": 4,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_block",
@@ -76,7 +76,7 @@
     {
       "name": "StarsteelOreBlockRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_ore_block_recipe",
@@ -89,7 +89,7 @@
     {
       "name": "StarsteelBlockOreRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_block_ore_recipe",
@@ -102,7 +102,7 @@
     {
       "name": "StarsteelOreSmelting",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_ore_smelting",
@@ -115,7 +115,7 @@
     {
       "name": "StarsteelPickaxe",
       "type": "tool",
-      "sortid": 8,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_pickaxe",
@@ -129,7 +129,7 @@
     {
       "name": "StarsteelAxe",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_axe",
@@ -143,7 +143,7 @@
     {
       "name": "StarsteelSword",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_sword",
@@ -157,7 +157,7 @@
     {
       "name": "StarsteelShovel",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_shovel",
@@ -171,7 +171,7 @@
     {
       "name": "StarsteelHoe",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_hoe",
@@ -185,7 +185,7 @@
     {
       "name": "StarsteelPickaxeRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_pickaxe_recipe",
@@ -198,7 +198,7 @@
     {
       "name": "StarsteelAxeRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_axe_recipe",
@@ -211,7 +211,7 @@
     {
       "name": "StarsteelSwordRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_sword_recipe",
@@ -224,7 +224,7 @@
     {
       "name": "StarsteelShovelRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_shovel_recipe",
@@ -237,7 +237,7 @@
     {
       "name": "StarsteelHoeRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_hoe_recipe",
@@ -250,7 +250,7 @@
     {
       "name": "StarsteelArmor",
       "type": "armor",
-      "sortid": 7,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_armor",
@@ -271,7 +271,7 @@
     {
       "name": "StarsteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_armor_helmet_recipe",
@@ -284,7 +284,7 @@
     {
       "name": "StarsteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_armor_body_recipe",
@@ -297,7 +297,7 @@
     {
       "name": "StarsteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_armor_leggings_recipe",
@@ -310,7 +310,7 @@
     {
       "name": "StarsteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_armor_boots_recipe",
@@ -323,7 +323,7 @@
     {
       "name": "Test",
       "type": "tab",
-      "sortid": 35,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test",
@@ -334,7 +334,7 @@
     {
       "name": "Levitation",
       "type": "potion",
-      "sortid": 36,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "levitation",
@@ -346,7 +346,7 @@
     {
       "name": "Paintinga",
       "type": "painting",
-      "sortid": 37,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paintinga",
@@ -358,7 +358,7 @@
     {
       "name": "CommandEzProcedure",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "command_ez_procedure",
@@ -378,7 +378,7 @@
     {
       "name": "CommandEz",
       "type": "command",
-      "sortid": 39,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "command_ez",
@@ -392,7 +392,7 @@
     {
       "name": "DirtToDiamond",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_to_diamond",
@@ -405,7 +405,7 @@
     {
       "name": "ArmorCheatProcedure",
       "type": "procedure",
-      "sortid": 54,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "armor_cheat_procedure",
@@ -425,7 +425,7 @@
     {
       "name": "Zombified",
       "type": "musicdisc",
-      "sortid": 55,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zombified",
@@ -440,7 +440,7 @@
     {
       "name": "WorldINeverKnew",
       "type": "musicdisc",
-      "sortid": 56,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "world_i_never_knew",
@@ -455,7 +455,7 @@
     {
       "name": "Addict",
       "type": "musicdisc",
-      "sortid": 57,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "addict",
@@ -470,7 +470,7 @@
     {
       "name": "WoeToThePeopleOfOrder",
       "type": "musicdisc",
-      "sortid": 58,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woe_to_the_people_of_order",
@@ -485,7 +485,7 @@
     {
       "name": "WoeToThePeopleOfOrderStereo",
       "type": "musicdisc",
-      "sortid": 59,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woe_to_the_people_of_order_stereo",
@@ -500,7 +500,7 @@
     {
       "name": "Ambrosia",
       "type": "potion",
-      "sortid": 60,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ambrosia",
@@ -570,7 +570,7 @@
       "item.mcreator_test_mod.cmhreimagined": "Cross My Heart - Reimagined",
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "item.mcreator_test_mod.starsteel_armor_boots": "Starsteel Boots",
-      "item.mcreator_test_mod.woe_to_the_people_of_order": "Woe To The People Of Order",
+      "item.mcreator_test_mod.woe_to_the_people_of_order": "Woe To The People Of Order_Mono",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "subtitles.woe_to_the_people_of_order_mono": "Woe to the People of Order — Cami-Cat",
       "item.mcreator_test_mod.starsteel_shovel": "Starsteel Shovel",
