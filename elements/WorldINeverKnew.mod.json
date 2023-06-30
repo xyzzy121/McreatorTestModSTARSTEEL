@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "World I Never Knew",
+    "texture": "fbkwqivvsaimi6v",
+    "description": "Fabvl",
+    "creativeTab": {
+      "value": "CUSTOM:Test"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:world_i_never_knew"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

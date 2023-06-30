@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mcreatortestmod.item.ZombifiedItem;
+import net.mcreator.mcreatortestmod.item.WorldINeverKnewItem;
 import net.mcreator.mcreatortestmod.item.StarsteelSwordItem;
 import net.mcreator.mcreatortestmod.item.StarsteelShovelItem;
 import net.mcreator.mcreatortestmod.item.StarsteelPickaxeItem;
@@ -21,13 +23,6 @@ import net.mcreator.mcreatortestmod.item.StarsteelDustItem;
 import net.mcreator.mcreatortestmod.item.StarsteelAxeItem;
 import net.mcreator.mcreatortestmod.item.StarsteelArmorItem;
 import net.mcreator.mcreatortestmod.item.CmhreimaginedItem;
-import net.mcreator.mcreatortestmod.item.BloodstoneSwordItem;
-import net.mcreator.mcreatortestmod.item.BloodstoneShovelItem;
-import net.mcreator.mcreatortestmod.item.BloodstonePickaxeItem;
-import net.mcreator.mcreatortestmod.item.BloodstoneIngotItem;
-import net.mcreator.mcreatortestmod.item.BloodstoneHoeItem;
-import net.mcreator.mcreatortestmod.item.BloodstoneAxeItem;
-import net.mcreator.mcreatortestmod.item.BloodstoneArmorItem;
 import net.mcreator.mcreatortestmod.McreatorTestModMod;
 
 public class McreatorTestModModItems {
@@ -45,18 +40,8 @@ public class McreatorTestModModItems {
 	public static final RegistryObject<Item> STARSTEEL_SWORD = REGISTRY.register("starsteel_sword", () -> new StarsteelSwordItem());
 	public static final RegistryObject<Item> STARSTEEL_SHOVEL = REGISTRY.register("starsteel_shovel", () -> new StarsteelShovelItem());
 	public static final RegistryObject<Item> STARSTEEL_HOE = REGISTRY.register("starsteel_hoe", () -> new StarsteelHoeItem());
-	public static final RegistryObject<Item> BLOODSTONE_BLOCK = block(McreatorTestModModBlocks.BLOODSTONE_BLOCK, McreatorTestModModTabs.TAB_TEST);
-	public static final RegistryObject<Item> BLOODSTONE_ORE = block(McreatorTestModModBlocks.BLOODSTONE_ORE, McreatorTestModModTabs.TAB_TEST);
-	public static final RegistryObject<Item> BLOODSTONE_INGOT = REGISTRY.register("bloodstone_ingot", () -> new BloodstoneIngotItem());
-	public static final RegistryObject<Item> BLOODSTONE_ARMOR_HELMET = REGISTRY.register("bloodstone_armor_helmet", () -> new BloodstoneArmorItem.Helmet());
-	public static final RegistryObject<Item> BLOODSTONE_ARMOR_CHESTPLATE = REGISTRY.register("bloodstone_armor_chestplate", () -> new BloodstoneArmorItem.Chestplate());
-	public static final RegistryObject<Item> BLOODSTONE_ARMOR_LEGGINGS = REGISTRY.register("bloodstone_armor_leggings", () -> new BloodstoneArmorItem.Leggings());
-	public static final RegistryObject<Item> BLOODSTONE_ARMOR_BOOTS = REGISTRY.register("bloodstone_armor_boots", () -> new BloodstoneArmorItem.Boots());
-	public static final RegistryObject<Item> BLOODSTONE_PICKAXE = REGISTRY.register("bloodstone_pickaxe", () -> new BloodstonePickaxeItem());
-	public static final RegistryObject<Item> BLOODSTONE_AXE = REGISTRY.register("bloodstone_axe", () -> new BloodstoneAxeItem());
-	public static final RegistryObject<Item> BLOODSTONE_SWORD = REGISTRY.register("bloodstone_sword", () -> new BloodstoneSwordItem());
-	public static final RegistryObject<Item> BLOODSTONE_SHOVEL = REGISTRY.register("bloodstone_shovel", () -> new BloodstoneShovelItem());
-	public static final RegistryObject<Item> BLOODSTONE_HOE = REGISTRY.register("bloodstone_hoe", () -> new BloodstoneHoeItem());
+	public static final RegistryObject<Item> ZOMBIFIED = REGISTRY.register("zombified", () -> new ZombifiedItem());
+	public static final RegistryObject<Item> WORLD_I_NEVER_KNEW = REGISTRY.register("world_i_never_knew", () -> new WorldINeverKnewItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

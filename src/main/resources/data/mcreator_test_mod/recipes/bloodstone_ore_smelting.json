@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 256,
-  "cookingtime": 100,
-  "ingredient": {
-    "item": "mcreator_test_mod:bloodstone_ore"
-  },
-  "result": "mcreator_test_mod:bloodstone_ingot"
-}

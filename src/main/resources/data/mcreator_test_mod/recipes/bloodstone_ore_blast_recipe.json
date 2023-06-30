@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "experience": 256,
-  "cookingtime": 10,
-  "ingredient": {
-    "item": "mcreator_test_mod:bloodstone_ore"
-  },
-  "result": "mcreator_test_mod:bloodstone_ingot"
-}

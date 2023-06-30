@@ -15,5 +15,23 @@
         "stream": false
       }
     ]
+  },
+  "world_i_never_knew": {
+    "subtitle": "subtitles.world_i_never_knew",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_world_i_never_knew",
+        "stream": true
+      }
+    ]
+  },
+  "zombified": {
+    "subtitle": "subtitles.zombified",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_zombified",
+        "stream": true
+      }
+    ]
   }
 }

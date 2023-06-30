@@ -729,6 +729,36 @@
         ]
       },
       "path": "~/Potions"
+    },
+    {
+      "name": "Zombified",
+      "type": "musicdisc",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombified",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/zombified.json",
+          "src/main/java/net/mcreator/mcreatortestmod/item/ZombifiedItem.java"
+        ]
+      },
+      "path": "~/MusicDiscs"
+    },
+    {
+      "name": "WorldINeverKnew",
+      "type": "musicdisc",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_i_never_knew",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcreatortestmod/item/WorldINeverKnewItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/world_i_never_knew.json"
+        ]
+      },
+      "path": "~/MusicDiscs"
     }
   ],
   "variable_elements": [],
@@ -756,6 +786,14 @@
       ],
       "category": "record",
       "subtitle": "World I Never Knew — Fabvl"
+    },
+    {
+      "name": "zombified",
+      "files": [
+        "spotifydown.com_-_zombified"
+      ],
+      "category": "record",
+      "subtitle": "Zombified — Falling In Reverse"
     }
   ],
   "language_map": {
@@ -777,9 +815,12 @@
       "item.mcreator_test_mod.bloodstone_armor_leggings": "Bloodstone Leggings",
       "item.mcreator_test_mod.bloodstone_armor_chestplate": "Bloodstone Chestplate",
       "item.mcreator_test_mod.cmhreimagined.desc": "by Fabvl",
+      "item.mcreator_test_mod.world_i_never_knew.desc": "Fabvl",
       "subtitles.cmh_reimagined": "",
       "block.mcreator_test_mod.bloodstone_ore": "Bloodstone Ore",
+      "item.mcreator_test_mod.world_i_never_knew": "World I Never Knew",
       "item.mcreator_test_mod.bloodstone_armor_boots": "Bloodstone Boots",
+      "item.mcreator_test_mod.zombified.desc": "Falling In Reverse",
       "item.mcreator_test_mod.starsteel_sword": "Starsteel Sword",
       "subtitles.world_i_never_knew": "World I Never Knew — Fabvl",
       "item.mcreator_test_mod.bloodstone_sword": "Bloodstone Sword",
@@ -787,9 +828,11 @@
       "itemGroup.tabtest": "Test",
       "item.mcreator_test_mod.starsteel_armor_chestplate": "Starsteel Chestplate",
       "item.mcreator_test_mod.bloodstone_hoe": "Bloodstone Hoe",
+      "subtitles.zombified": "Zombified — Falling In Reverse",
       "item.mcreator_test_mod.starsteel_dust": "Starsteel",
       "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
+      "item.mcreator_test_mod.zombified": "Zombified",
       "item.mcreator_test_mod.starsteel_armor_helmet": "Starsteel Helmet",
       "item.mcreator_test_mod.starsteel_axe": "Starsteel Axe",
       "block.mcreator_test_mod.bloodstone_block": "Block of Bloodstone",

@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Zombified",
+    "texture": "fbkwqivvsaimi6v",
+    "description": "Falling In Reverse",
+    "creativeTab": {
+      "value": "CUSTOM:Test"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:zombified"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}
