@@ -390,301 +390,6 @@
       "path": "~/Potions"
     },
     {
-      "name": "BloodstoneIngot",
-      "type": "item",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_ingot",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_ingot.json",
-          "src/main/java/net/mcreator/mcreatortestmod/item/BloodstoneIngotItem.java"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneOre",
-      "type": "block",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_ore",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mcreatortestmod/block/BloodstoneOreBlock.java",
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_ore.json",
-          "src/main/resources/assets/mcreator_test_mod/blockstates/bloodstone_ore.json",
-          "src/main/resources/data/mcreator_test_mod/forge/biome_modifier/bloodstone_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/mcreatortestmod/world/features/ores/BloodstoneOreFeature.java",
-          "src/main/resources/assets/mcreator_test_mod/models/block/bloodstone_ore.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneBlock",
-      "type": "block",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mcreator_test_mod/blockstates/bloodstone_block.json",
-          "src/main/java/net/mcreator/mcreatortestmod/block/BloodstoneBlockBlock.java",
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_block.json",
-          "src/main/resources/assets/mcreator_test_mod/models/block/bloodstone_block.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_ore_block_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_block_ore_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_block_ore_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneOreSmelting",
-      "type": "recipe",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_ore_smelting.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstonePickaxe",
-      "type": "tool",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mcreatortestmod/item/BloodstonePickaxeItem.java",
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_pickaxe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneAxe",
-      "type": "tool",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mcreatortestmod/item/BloodstoneAxeItem.java",
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_axe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneSword",
-      "type": "tool",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_sword.json",
-          "src/main/java/net/mcreator/mcreatortestmod/item/BloodstoneSwordItem.java"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneShovel",
-      "type": "tool",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_shovel.json",
-          "src/main/java/net/mcreator/mcreatortestmod/item/BloodstoneShovelItem.java"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneHoe",
-      "type": "tool",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_hoe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mcreatortestmod/item/BloodstoneHoeItem.java",
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_hoe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstonePickaxeRecipe",
-      "type": "recipe",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_pickaxe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_pickaxe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneAxeRecipe",
-      "type": "recipe",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_axe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneSwordRecipe",
-      "type": "recipe",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_sword_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneShovelRecipe",
-      "type": "recipe",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_shovel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_shovel_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneHoeRecipe",
-      "type": "recipe",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_hoe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_hoe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneArmor",
-      "type": "armor",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true,
-        "files": [
-          "src/main/java/net/mcreator/mcreatortestmod/item/BloodstoneArmorItem.java",
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_armor_chestplate.json",
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_armor_helmet.json",
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_armor_leggings.json",
-          "src/main/resources/assets/mcreator_test_mod/models/item/bloodstone_armor_boots.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_armor_helmet_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_armor_body_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_armor_body_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_armor_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_armor_leggings_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_armor_boots_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "DirtToDiamond",
       "type": "recipe",
       "sortid": 52,
@@ -694,19 +399,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/mcreator_test_mod/recipes/dirt_to_diamond.json"
-        ]
-      }
-    },
-    {
-      "name": "BloodstoneOreBlastRecipe",
-      "type": "recipe",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodstone_ore_blast_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mcreator_test_mod/recipes/bloodstone_ore_blast_recipe.json"
         ]
       }
     },
@@ -759,6 +451,51 @@
         ]
       },
       "path": "~/MusicDiscs"
+    },
+    {
+      "name": "Addict",
+      "type": "musicdisc",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "addict",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcreatortestmod/item/AddictItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/addict.json"
+        ]
+      },
+      "path": "~/MusicDiscs"
+    },
+    {
+      "name": "WoeToThePeopleOfOrder",
+      "type": "musicdisc",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woe_to_the_people_of_order",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcreatortestmod/item/WoeToThePeopleOfOrderItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/woe_to_the_people_of_order.json"
+        ]
+      },
+      "path": "~/MusicDiscs"
+    },
+    {
+      "name": "WoeToThePeopleOfOrderStereo",
+      "type": "musicdisc",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woe_to_the_people_of_order_stereo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mcreator_test_mod/models/item/woe_to_the_people_of_order_stereo.json",
+          "src/main/java/net/mcreator/mcreatortestmod/item/WoeToThePeopleOfOrderStereoItem.java"
+        ]
+      },
+      "path": "~/MusicDiscs"
     }
   ],
   "variable_elements": [],
@@ -794,48 +531,60 @@
       ],
       "category": "record",
       "subtitle": "Zombified — Falling In Reverse"
+    },
+    {
+      "name": "woe_to_the_people_of_order_mono",
+      "files": [
+        "spotifydown.com_-_woe_to_the_people_of_ordermono"
+      ],
+      "category": "neutral",
+      "subtitle": "Woe to the People of Order — Cami-Cat"
+    },
+    {
+      "name": "woetothepeopleoforder_stereo",
+      "files": [
+        "woe_to_the_people_of_orderstereo"
+      ],
+      "category": "neutral",
+      "subtitle": "Woe to the People of Order — Cami-Cat"
     }
   ],
   "language_map": {
     "en_us": {
-      "item.mcreator_test_mod.bloodstone_ingot": "Bloodstone Ingot",
-      "item.mcreator_test_mod.bloodstone_shovel": "Bloodstone Shovel",
+      "subtitles.woetothepeopleoforder_stereo": "Woe to the People of Order — Cami-Cat",
       "subtitles.addict": "Addict: Fabvl",
       "item.mcreator_test_mod.cmhreimagined": "Cross My Heart - Reimagined",
-      "item.mcreator_test_mod.bloodstone_axe": "Bloodstone Axe",
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "item.mcreator_test_mod.starsteel_armor_boots": "Starsteel Boots",
+      "item.mcreator_test_mod.woe_to_the_people_of_order": "Woe To The People Of Order",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
+      "subtitles.woe_to_the_people_of_order_mono": "Woe to the People of Order — Cami-Cat",
       "item.mcreator_test_mod.starsteel_shovel": "Starsteel Shovel",
       "item.mcreator_test_mod.starsteel_armor_leggings": "Starsteel Leggings",
-      "item.mcreator_test_mod.bloodstone_armor_helmet": "Bloodstone Helmet",
+      "item.mcreator_test_mod.addict.desc": "Fabvl",
       "block.mcreator_test_mod.starsteel_ore": "Starsteel Ore",
       "block.mcreator_test_mod.starsteel_block": "Block of Starsteel",
-      "item.mcreator_test_mod.bloodstone_pickaxe": "Bloodstone Pickaxe",
-      "item.mcreator_test_mod.bloodstone_armor_leggings": "Bloodstone Leggings",
-      "item.mcreator_test_mod.bloodstone_armor_chestplate": "Bloodstone Chestplate",
       "item.mcreator_test_mod.cmhreimagined.desc": "by Fabvl",
       "item.mcreator_test_mod.world_i_never_knew.desc": "Fabvl",
       "subtitles.cmh_reimagined": "",
-      "block.mcreator_test_mod.bloodstone_ore": "Bloodstone Ore",
       "item.mcreator_test_mod.world_i_never_knew": "World I Never Knew",
-      "item.mcreator_test_mod.bloodstone_armor_boots": "Bloodstone Boots",
       "item.mcreator_test_mod.zombified.desc": "Falling In Reverse",
       "item.mcreator_test_mod.starsteel_sword": "Starsteel Sword",
       "subtitles.world_i_never_knew": "World I Never Knew — Fabvl",
-      "item.mcreator_test_mod.bloodstone_sword": "Bloodstone Sword",
       "item.mcreator_test_mod.starsteel_hoe": "Starsteel Hoe",
       "itemGroup.tabtest": "Test",
+      "item.mcreator_test_mod.woe_to_the_people_of_order_stereo.desc": "Cami-Cat",
       "item.mcreator_test_mod.starsteel_armor_chestplate": "Starsteel Chestplate",
-      "item.mcreator_test_mod.bloodstone_hoe": "Bloodstone Hoe",
+      "item.mcreator_test_mod.woe_to_the_people_of_order_stereo": "Woe To The People Of Order_Stereo",
       "subtitles.zombified": "Zombified — Falling In Reverse",
+      "item.mcreator_test_mod.addict": "Addict",
       "item.mcreator_test_mod.starsteel_dust": "Starsteel",
       "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
       "item.mcreator_test_mod.zombified": "Zombified",
       "item.mcreator_test_mod.starsteel_armor_helmet": "Starsteel Helmet",
       "item.mcreator_test_mod.starsteel_axe": "Starsteel Axe",
-      "block.mcreator_test_mod.bloodstone_block": "Block of Bloodstone",
+      "item.mcreator_test_mod.woe_to_the_people_of_order.desc": "Cami-Cat",
       "item.mcreator_test_mod.starsteel_pickaxe": "Starsteel Pickaxe"
     }
   },

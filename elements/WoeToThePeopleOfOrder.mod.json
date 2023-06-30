@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Woe To The People Of Order",
+    "texture": "ab67616d0000b27393c06ecd5d848158e3a0748c",
+    "description": "Cami-Cat",
+    "creativeTab": {
+      "value": "CUSTOM:Test"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:woe_to_the_people_of_order_mono"
+    },
+    "lengthInTicks": 9533,
+    "analogOutput": 0
+  }
+}

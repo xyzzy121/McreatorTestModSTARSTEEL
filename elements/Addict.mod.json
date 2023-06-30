@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Addict",
+    "texture": "fbkwqivvsaimi6v",
+    "description": "Fabvl",
+    "creativeTab": {
+      "value": "CUSTOM:Test"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:addict"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

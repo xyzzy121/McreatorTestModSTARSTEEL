@@ -33,5 +33,23 @@
         "stream": true
       }
     ]
+  },
+  "woe_to_the_people_of_order_mono": {
+    "subtitle": "subtitles.woe_to_the_people_of_order_mono",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:spotifydown.com_-_woe_to_the_people_of_ordermono",
+        "stream": false
+      }
+    ]
+  },
+  "woetothepeopleoforder_stereo": {
+    "subtitle": "subtitles.woetothepeopleoforder_stereo",
+    "sounds": [
+      {
+        "name": "mcreator_test_mod:woe_to_the_people_of_orderstereo",
+        "stream": false
+      }
+    ]
   }
 }

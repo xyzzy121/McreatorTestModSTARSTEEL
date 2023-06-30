@@ -19,4 +19,6 @@ public class McreatorTestModModSounds {
 	public static final RegistryObject<SoundEvent> CMH_REIMAGINED = REGISTRY.register("cmh_reimagined", () -> new SoundEvent(new ResourceLocation("mcreator_test_mod", "cmh_reimagined")));
 	public static final RegistryObject<SoundEvent> WORLD_I_NEVER_KNEW = REGISTRY.register("world_i_never_knew", () -> new SoundEvent(new ResourceLocation("mcreator_test_mod", "world_i_never_knew")));
 	public static final RegistryObject<SoundEvent> ZOMBIFIED = REGISTRY.register("zombified", () -> new SoundEvent(new ResourceLocation("mcreator_test_mod", "zombified")));
+	public static final RegistryObject<SoundEvent> WOE_TO_THE_PEOPLE_OF_ORDER_MONO = REGISTRY.register("woe_to_the_people_of_order_mono", () -> new SoundEvent(new ResourceLocation("mcreator_test_mod", "woe_to_the_people_of_order_mono")));
+	public static final RegistryObject<SoundEvent> WOETOTHEPEOPLEOFORDER_STEREO = REGISTRY.register("woetothepeopleoforder_stereo", () -> new SoundEvent(new ResourceLocation("mcreator_test_mod", "woetothepeopleoforder_stereo")));
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mcreator_test_mod:items/ab67616d0000b27393c06ecd5d848158e3a0748c"
+  }
+}

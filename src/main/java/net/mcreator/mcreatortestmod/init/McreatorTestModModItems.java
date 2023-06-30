@@ -15,6 +15,8 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mcreatortestmod.item.ZombifiedItem;
 import net.mcreator.mcreatortestmod.item.WorldINeverKnewItem;
+import net.mcreator.mcreatortestmod.item.WoeToThePeopleOfOrderStereoItem;
+import net.mcreator.mcreatortestmod.item.WoeToThePeopleOfOrderItem;
 import net.mcreator.mcreatortestmod.item.StarsteelSwordItem;
 import net.mcreator.mcreatortestmod.item.StarsteelShovelItem;
 import net.mcreator.mcreatortestmod.item.StarsteelPickaxeItem;
@@ -23,6 +25,7 @@ import net.mcreator.mcreatortestmod.item.StarsteelDustItem;
 import net.mcreator.mcreatortestmod.item.StarsteelAxeItem;
 import net.mcreator.mcreatortestmod.item.StarsteelArmorItem;
 import net.mcreator.mcreatortestmod.item.CmhreimaginedItem;
+import net.mcreator.mcreatortestmod.item.AddictItem;
 import net.mcreator.mcreatortestmod.McreatorTestModMod;
 
 public class McreatorTestModModItems {
@@ -42,6 +45,9 @@ public class McreatorTestModModItems {
 	public static final RegistryObject<Item> STARSTEEL_HOE = REGISTRY.register("starsteel_hoe", () -> new StarsteelHoeItem());
 	public static final RegistryObject<Item> ZOMBIFIED = REGISTRY.register("zombified", () -> new ZombifiedItem());
 	public static final RegistryObject<Item> WORLD_I_NEVER_KNEW = REGISTRY.register("world_i_never_knew", () -> new WorldINeverKnewItem());
+	public static final RegistryObject<Item> ADDICT = REGISTRY.register("addict", () -> new AddictItem());
+	public static final RegistryObject<Item> WOE_TO_THE_PEOPLE_OF_ORDER = REGISTRY.register("woe_to_the_people_of_order", () -> new WoeToThePeopleOfOrderItem());
+	public static final RegistryObject<Item> WOE_TO_THE_PEOPLE_OF_ORDER_STEREO = REGISTRY.register("woe_to_the_people_of_order_stereo", () -> new WoeToThePeopleOfOrderStereoItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
