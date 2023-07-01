@@ -520,6 +520,20 @@
         ]
       },
       "path": "~/The Underspawn"
+    },
+    {
+      "name": "DarkAmbrosiaRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_ambrosia_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/recipes/dark_ambrosia_recipe.json"
+        ]
+      },
+      "path": "~/Potions"
     }
   ],
   "variable_elements": [],
