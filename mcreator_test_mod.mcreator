@@ -3,7 +3,7 @@
     {
       "name": "Cmhreimagined",
       "type": "musicdisc",
-      "sortid": 1,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cmhreimagined",
@@ -42,7 +42,7 @@
     {
       "name": "StarsteelOre",
       "type": "block",
-      "sortid": 15,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starsteel_ore",
@@ -455,7 +455,7 @@
     {
       "name": "Addict",
       "type": "musicdisc",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "addict",
@@ -470,7 +470,7 @@
     {
       "name": "WoeToThePeopleOfOrder",
       "type": "musicdisc",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woe_to_the_people_of_order",
@@ -485,7 +485,7 @@
     {
       "name": "WoeToThePeopleOfOrderStereo",
       "type": "musicdisc",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woe_to_the_people_of_order_stereo",

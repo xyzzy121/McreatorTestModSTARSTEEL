@@ -16,6 +16,6 @@ import net.mcreator.mcreatortestmod.McreatorTestModMod;
 
 public class McreatorTestModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, McreatorTestModMod.MODID);
-	public static final RegistryObject<Block> STARSTEEL_BLOCK = REGISTRY.register("starsteel_block", () -> new StarsteelBlockBlock());
 	public static final RegistryObject<Block> STARSTEEL_ORE = REGISTRY.register("starsteel_ore", () -> new StarsteelOreBlock());
+	public static final RegistryObject<Block> STARSTEEL_BLOCK = REGISTRY.register("starsteel_block", () -> new StarsteelBlockBlock());
 }
