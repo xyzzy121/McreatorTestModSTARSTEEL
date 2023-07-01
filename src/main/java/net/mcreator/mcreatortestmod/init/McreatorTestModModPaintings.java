@@ -14,5 +14,5 @@ import net.mcreator.mcreatortestmod.McreatorTestModMod;
 
 public class McreatorTestModModPaintings {
 	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, McreatorTestModMod.MODID);
-	public static final RegistryObject<PaintingVariant> I_ASSURE_YOU = REGISTRY.register("i_assure_you", () -> new PaintingVariant(53, 37));
+	public static final RegistryObject<PaintingVariant> I_ASSURE_YOU = REGISTRY.register("i_assure_you", () -> new PaintingVariant(32, 32));
 }

@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.mcreatortestmod.block.TheUnderspawnPortalBlock;
 import net.mcreator.mcreatortestmod.block.StarsteelOreBlock;
 import net.mcreator.mcreatortestmod.block.StarsteelBlockBlock;
 import net.mcreator.mcreatortestmod.McreatorTestModMod;
