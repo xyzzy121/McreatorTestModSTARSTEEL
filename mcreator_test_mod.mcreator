@@ -496,6 +496,30 @@
         "files": []
       },
       "path": "~/Potions"
+    },
+    {
+      "name": "TheUnderspawn",
+      "type": "dimension",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_underspawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mcreator_test_mod/dimension_type/the_underspawn.json",
+          "src/main/resources/assets/mcreator_test_mod/models/block/the_underspawn_portal_ew.json",
+          "src/main/java/net/mcreator/mcreatortestmod/world/teleporter/TheUnderspawnPortalShape.java",
+          "src/main/resources/data/mcreator_test_mod/dimension/the_underspawn.json",
+          "src/main/resources/assets/mcreator_test_mod/blockstates/the_underspawn_portal.json",
+          "src/main/java/net/mcreator/mcreatortestmod/world/dimension/TheUnderspawnDimension.java",
+          "src/main/resources/assets/mcreator_test_mod/models/block/the_underspawn_portal_ns.json",
+          "src/main/java/net/mcreator/mcreatortestmod/world/teleporter/TheUnderspawnTeleporter.java",
+          "src/main/java/net/mcreator/mcreatortestmod/item/TheUnderspawnItem.java",
+          "src/main/resources/assets/mcreator_test_mod/models/item/the_underspawn.json",
+          "src/main/java/net/mcreator/mcreatortestmod/block/TheUnderspawnPortalBlock.java"
+        ]
+      },
+      "path": "~/The Underspawn"
     }
   ],
   "variable_elements": [],
@@ -578,6 +602,7 @@
       "item.mcreator_test_mod.starsteel_hoe": "Starsteel Hoe",
       "itemGroup.tabtest": "Test",
       "item.mcreator_test_mod.woe_to_the_people_of_order_stereo.desc": "Cami-Cat",
+      "item.mcreator_test_mod.the_underspawn": "The Underspawn Portal Igniter",
       "item.mcreator_test_mod.starsteel_armor_chestplate": "Starsteel Chestplate",
       "item.mcreator_test_mod.woe_to_the_people_of_order_stereo": "Woe To The People Of Order_Stereo",
       "subtitles.zombified": "Zombified — Falling In Reverse",
@@ -601,6 +626,10 @@
       },
       {
         "name": "MusicDiscs",
+        "children": []
+      },
+      {
+        "name": "The Underspawn",
         "children": []
       }
     ]

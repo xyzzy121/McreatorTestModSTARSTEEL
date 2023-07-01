@@ -48,6 +48,7 @@ public class McreatorTestModModItems {
 	public static final RegistryObject<Item> ADDICT = REGISTRY.register("addict", () -> new AddictItem());
 	public static final RegistryObject<Item> WOE_TO_THE_PEOPLE_OF_ORDER = REGISTRY.register("woe_to_the_people_of_order", () -> new WoeToThePeopleOfOrderItem());
 	public static final RegistryObject<Item> WOE_TO_THE_PEOPLE_OF_ORDER_STEREO = REGISTRY.register("woe_to_the_people_of_order_stereo", () -> new WoeToThePeopleOfOrderStereoItem());
+	public static final RegistryObject<Item> THE_UNDERSPAWN = REGISTRY.register("the_underspawn", () -> new TheUnderspawnItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
